@@ -6,7 +6,7 @@ public class Acumuladores {
 		//IRREP NUMERO <=0 SI ES NEGATIVO Y MATIS VACIA
 		if (mat.length==0 || num<=0) return false;
 		boolean sialgunacolumna=false;
-		//RECORRO LAS COLUMNAS
+		//RECORRO LAS COLUMNAS POR RAMA
 		for (int c=0; c<mat[0].length;c++) {
 			boolean haymultiplo=true;			
 			for(int f=0; f<mat.length; f++) {
